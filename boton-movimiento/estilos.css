@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background-color: rgb(152, 230, 226);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+
+}
+
+button{
+    position: absolute;
+    border: 0;
+    padding: 0 .5em;
+    font-weight: bolder;
+    background-color: dodgerblue;
+    color: #fff;
+    border-radius: .1em;
+}
+
+
+
